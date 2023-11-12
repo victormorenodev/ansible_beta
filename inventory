@@ -1,3 +1,6 @@
-u-server@10.241.198.237 apache_package=apache2 php_package=libapache2-mod-php
-u-client@10.241.198.196 apache_package=apache2 php_package=libapache2-mod-php
-centos-server@10.241.198.215 apache_package=httpd php_package=php
+[servers]
+u-server@10.241.198.237 
+centos-server@10.241.198.215
+
+[clients]
+u-client@10.241.198.196  
